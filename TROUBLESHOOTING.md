@@ -1,4 +1,4 @@
-# 🔧 Guia de Solução de Problemas - Backend
+# Guia de Solução de Problemas - Backend
 
 ## Problema: Erro ao Registrar Nova Conta
 
@@ -46,7 +46,7 @@ PORT=4000
 
 ---
 
-## 🔓 Como Desabilitar Autenticação Temporariamente
+## Como Desabilitar Autenticação Temporariamente
 
 Se você quiser testar o sistema sem precisar fazer login, pode desabilitar a autenticação temporariamente:
 
@@ -60,7 +60,7 @@ DISABLE_AUTH=true
 
 3. Reinicie o servidor
 
-**⚠️ ATENÇÃO:** Isso permite acesso sem token. Use APENAS em desenvolvimento!
+** ATENÇÃO:** Isso permite acesso sem token. Use APENAS em desenvolvimento!
 
 ### Método 2: Modificar o Middleware
 
@@ -94,19 +94,19 @@ Antes de reportar um erro, verifique:
 
 ---
 
-## 🐛 Logs de Erro
+## Logs de Erro
 
 O servidor agora mostra mensagens mais detalhadas:
 
-- ✅ **Verde:** Sucesso
-- ⚠️ **Amarelo:** Avisos
-- ❌ **Vermelho:** Erros
+- **Verde:** Sucesso
+- **Amarelo:** Avisos
+- **Vermelho:** Erros
 
 Verifique o console do servidor para ver mensagens específicas sobre o problema.
 
 ---
 
-## 📞 Erros Comuns
+## Erros Comuns
 
 ### "Token não encontrado"
 - **Causa:** Requisição sem header Authorization
@@ -126,7 +126,7 @@ Verifique o console do servidor para ver mensagens específicas sobre o problema
 
 ---
 
-## 🚀 Teste Rápido
+## Teste Rápido
 
 Para testar se tudo está funcionando:
 
@@ -149,5 +149,6 @@ curl -X POST http://localhost:4000/api/auth/login \
   -d '{"email":"teste@teste.com","password":"123456"}'
 ```
 
-Se ambos retornarem JSON com token, está funcionando! ✅
+Se ambos retornarem JSON com token, está funcionando! 
+
 
