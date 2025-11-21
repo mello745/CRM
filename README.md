@@ -2,7 +2,7 @@
 
 Frontend completo do CRM AGCELL desenvolvido com React, Vite, TailwindCSS e integração com backend Node.js/Express.
 
-## 📋 Índice
+## Índice
 
 - [Tecnologias](#tecnologias)
 - [Pré-requisitos](#pré-requisitos)
@@ -14,7 +14,7 @@ Frontend completo do CRM AGCELL desenvolvido com React, Vite, TailwindCSS e inte
 - [Integração com Backend](#integração-com-backend)
 - [Variáveis de Ambiente](#variáveis-de-ambiente)
 
-## 🛠 Tecnologias
+## Tecnologias
 
 - **React 18.2.0** - Biblioteca JavaScript para construção de interfaces
 - **Vite 5.0.8** - Build tool e dev server
@@ -24,7 +24,7 @@ Frontend completo do CRM AGCELL desenvolvido com React, Vite, TailwindCSS e inte
 - **TailwindCSS 3.3.6** - Framework CSS utilitário
 - **React Icons 4.12.0** - Biblioteca de ícones
 
-## 📦 Pré-requisitos
+## Pré-requisitos
 
 Antes de começar, certifique-se de ter instalado:
 
@@ -32,7 +32,7 @@ Antes de começar, certifique-se de ter instalado:
 - **npm** ou **yarn**
 - Backend do CRM AGCELL rodando e acessível
 
-## 🚀 Instalação
+## Instalação
 
 ### 1. Navegue até a pasta do frontend
 
@@ -52,7 +52,7 @@ ou
 yarn install
 ```
 
-## ⚙️ Configuração
+## Configuração
 
 ### Variáveis de Ambiente
 
@@ -73,7 +73,7 @@ const api = axios.create({
 });
 ```
 
-## ▶️ Executando o Projeto
+## Executando o Projeto
 
 ### Modo de Desenvolvimento
 
@@ -103,7 +103,7 @@ Os arquivos otimizados serão gerados na pasta `dist/`.
 npm run preview
 ```
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 frontend/
@@ -143,16 +143,16 @@ frontend/
 └── postcss.config.js
 ```
 
-## ✨ Funcionalidades
+## Funcionalidades
 
-### 🔐 Autenticação
+### Autenticação
 
 - **Login**: Autenticação com email e senha
 - **Persistência de Token**: Token JWT salvo no LocalStorage
 - **Rotas Protegidas**: Acesso restrito apenas para usuários autenticados
 - **Logout**: Limpeza de token e redirecionamento
 
-### 👥 Gestão de Clientes
+### Gestão de Clientes
 
 - **Listagem**: Tabela com todos os clientes
 - **Busca**: Busca dinâmica por nome, telefone ou email
@@ -171,7 +171,7 @@ frontend/
 - **Tipos**: Suporte para telefone, email, visita e outros
 - **Data e Hora**: Registro completo de quando ocorreu a interação
 
-### 🔔 Lembretes
+### Lembretes
 
 - **Criação**: Criação de lembretes vinculados a clientes
 - **Listagem**: Visualização de todos os lembretes
@@ -180,7 +180,7 @@ frontend/
 - **Exclusão**: Remoção de lembretes
 - **Integração**: Lembretes visíveis na página de detalhes do cliente
 
-### 📊 Dashboard
+### Dashboard
 
 - **Indicadores**: Cards com estatísticas principais
   - Total de Clientes
@@ -191,7 +191,7 @@ frontend/
 - **Últimos Clientes**: Tabela com os 5 clientes mais recentes
 - **Links Rápidos**: Navegação direta para seções específicas
 
-## 🔌 Integração com Backend
+## Integração com Backend
 
 ### Endpoints Utilizados
 
@@ -229,7 +229,7 @@ Todas as requisições autenticadas incluem o header:
 Authorization: Bearer <token>
 ```
 
-## 🔧 Variáveis de Ambiente
+## Variáveis de Ambiente
 
 Atualmente, a URL do backend está hardcoded no arquivo `src/api/axios.js`. Para usar variáveis de ambiente:
 
@@ -250,7 +250,7 @@ const api = axios.create({
 
 3. Reinicie o servidor de desenvolvimento.
 
-## 📱 Responsividade
+## Responsividade
 
 O frontend é totalmente responsivo e adapta-se a diferentes tamanhos de tela:
 
@@ -258,7 +258,7 @@ O frontend é totalmente responsivo e adapta-se a diferentes tamanhos de tela:
 - **Tablet**: Sidebar colapsável
 - **Mobile**: Menu hambúrguer (pode ser implementado)
 
-## 🎨 Design
+## Design
 
 O design segue padrões modernos inspirados em dashboards como Trello, Notion e Monday:
 
@@ -268,14 +268,14 @@ O design segue padrões modernos inspirados em dashboards como Trello, Notion e 
 - **Espaçamento**: Generoso para melhor legibilidade
 - **Interatividade**: Feedback visual em todas as ações
 
-## 🔒 Segurança
+## Segurança
 
 - Tokens JWT armazenados no LocalStorage
 - Rotas protegidas com verificação de autenticação
 - Interceptors tratam automaticamente tokens expirados
 - Validação de formulários no frontend
 
-## 📝 Checklist de Funcionalidades
+## Checklist de Funcionalidades
 
 - [x] Login e autenticação com JWT
 - [x] Persistência de token no LocalStorage
@@ -300,7 +300,7 @@ O design segue padrões modernos inspirados em dashboards como Trello, Notion e 
 - [x] Layout responsivo
 - [x] Componentes reutilizáveis
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Erro de CORS
 
@@ -325,11 +325,11 @@ Verifique se:
 2. A URL no `axios.js` está correta
 3. Não há firewall bloqueando a conexão
 
-## 📄 Licença
+## Licença
 
 Este projeto é parte do CRM AGCELL.
 
-## 👨‍💻 Desenvolvido por
+## Desenvolvido por Gustavo Corrêa de Mello
 
 Frontend desenvolvido seguindo as especificações do CRM AGCELL.
 
@@ -337,4 +337,5 @@ Frontend desenvolvido seguindo as especificações do CRM AGCELL.
 
 **Versão**: 1.0.0  
 **Última atualização**: 2024
+
 
