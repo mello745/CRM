@@ -80,7 +80,7 @@ const DISABLE_AUTH = true; // Forçar desabilitado
 
 ---
 
-## 📋 Checklist de Verificação
+## Checklist de Verificação
 
 Antes de reportar um erro, verifique:
 
@@ -150,5 +150,6 @@ curl -X POST http://localhost:4000/api/auth/login \
 ```
 
 Se ambos retornarem JSON com token, está funcionando! 
+
 
 
