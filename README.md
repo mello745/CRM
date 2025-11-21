@@ -164,7 +164,7 @@ frontend/
 - **Detalhes**: Página dedicada com histórico completo
 - **Exportação CSV**: Download de todos os clientes em formato CSV
 
-### 📝 Histórico de Interações
+### Histórico de Interações
 
 - **Visualização**: Timeline de todas as interações com o cliente
 - **Adição**: Formulário para registrar nova interação
@@ -337,5 +337,6 @@ Frontend desenvolvido seguindo as especificações do CRM AGCELL.
 
 **Versão**: 1.0.0  
 **Última atualização**: 2024
+
 
 
